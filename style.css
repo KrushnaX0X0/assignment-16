@@ -30,3 +30,49 @@ text-decoration: none;
 
 
 }
+#first{
+    margin-top: 3vh;
+    margin-left: 1vw;
+    border-radius: 17px;
+     height: 90vh;
+     width: 80vw;
+     background-color: #95d9e9;
+ }
+ 
+ #first-txt{
+     height: 100%;
+     width: 90vw;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ #slogan h1{
+    font-size:5.5vw;
+   font-weight: bolder;
+}
+
+#slogan button{
+    border: none;
+    font-size: 1.3vw;
+    margin-top: 4vh;
+    padding: 1.9vh 3.3vw;
+    background-color: #ff1e;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-left: 2vw;
+
+}
+#orderNow{
+    position: sticky;
+}
+#img-div{
+    height: 65vh;
+    width: 40vw;
+    margin-left: 2vw;
+}
+
+#img-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    filter: drop-shadow(20px 20px 60px rgba(0, 0, 0, 0.288));
