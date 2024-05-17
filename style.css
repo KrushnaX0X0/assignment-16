@@ -51,3 +51,22 @@ display: inline-block;
     padding: 8px 30px;
     border: 2px solid #fff;
 }
+.btn{
+    position: sticky;
+    top: 20px;
+
+}
+.home{
+    height: 400px;
+    padding: 70px;
+}
+.title-1{
+font-size: 56px;
+color: #fff;
+
+}
+.home p{
+    color: lemonchiffon;
+    font-size: 20px;
+    padding-top: 10px;
+}
