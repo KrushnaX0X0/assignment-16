@@ -109,8 +109,53 @@ color: #fff;
     position: sticky;
     top: 20px;
 }
+.btn-shop{
+   
+  position: sticky;
+  top: 20px;
+
+}
+
+.btn-body{
+    height: 70;
+    margin-bottom: 5px;
+    position: sticky;
+  top: 20px;
+
+    
+}
 .inroduction{
-height: 800px;
+height: 850px;
 width: 500px;
 background-color: red;
+border-radius: 40px;
+
+}
+.text-h1{
+    text-align: center;
+    padding: 10px;
+}
+.fist{
+    
+}
+.p{
+    padding: 10px;
+}
+.second-png{
+    height: 500px;
+    width: 500px;
+    
+    margin: 100px;
+
+}
+.second-png img{
+    height: 500px;
+    width: 500px;
+}
+
+.inline{
+    height: 900px;
+    width: 100%;
+
+    display:flex ;
 }
