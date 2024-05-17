@@ -1,34 +1,53 @@
-nav{
-    height: 10vh;
-    width: 100vw;
-   background-image: linear-gradient(to left,rgba(255, 255, 17, 0.363),white);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.continer{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(coffee-cup.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.nav-bar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 11;
-    position: fixed;
-    top: 0px;
+    padding: 30px 80px;
+
 }
-nav ul{
-    display: flex;
-    align-items: center;
-    gap: 2vw;
+.nav-bar .title{
+    color: #fff;
+    font-size: 67px;
+    font-weight: 600;
+}
+.nav-bar p{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500 ;
+}
+Span{
+    color: crimson;
+}
+.menu li{
 list-style: none;
-color: black;
-font-size: 1.5vw;
+display: inline-block;
 }
-
-nav ul li{
-    padding: 0.5vh 2.5vw;
-    background-color: aliceblue;
-    border-radius: 15px;
-background:#ff1e;
-box-shadow:  20px 20px 60px #bebebe,
-             -20px -20px 60px #ffffff;
-margin-right: 2vw;
-text-decoration: none;
-
-
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 27px;
+    margin-left: 25px;
+    font-weight: 600;
+    margin-left: 25px;
+    transition: .4s ease;
 }
-
-  
+.menu li a:hover{
+    color: crimson;
+    padding: 8px 30px;
+    border: 2px solid #fff;
+}
