@@ -16,6 +16,7 @@
     justify-content: space-between;
     padding: 30px 80px;
 
+
 }
 .nav-bar .title{
     color: #fff;
@@ -51,9 +52,21 @@ display: inline-block;
     padding: 8px 30px;
     border: 2px solid #fff;
 }
-.btn{
+.btn-1{
+    height: 40px;
+    width: 100px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 10px;
     position: sticky;
-    top: 20px;
+    top: 10px;
+    border: 2px solid red;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.btn{
+    position: fixed;
+    top: 0px;
 
 }
 .home{
@@ -69,4 +82,14 @@ color: #fff;
     color: lemonchiffon;
     font-size: 20px;
     padding-top: 10px;
+}
+.btn{
+    margin: 20px;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: yellow;
+    color: black;
+    position: sticky;
+    top: 20px;
 }
