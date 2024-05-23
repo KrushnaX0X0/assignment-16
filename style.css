@@ -15,6 +15,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 30px 80px;
+    position: fixed ;
 
 
 }
@@ -41,6 +42,7 @@ Span{
 .menu li{
 list-style: none;
 display: inline-block;
+position: static;
 
 
 
@@ -71,10 +73,11 @@ display: inline-block;
    
 }
 .btn-class{
-    display: flex;
-    justify-content: end;
-    position: sticky;
-    top: 0 ;
+    
+    
+    position: fixed;
+    top: 50%;
+    right: 0;
 }
 .btn-1:hover{
     background: none;
@@ -129,6 +132,7 @@ height: 850px;
 width: 500px;
 background-color: red;
 border-radius: 40px;
+position: relative;
 
 }
 .text-h1{
@@ -136,6 +140,9 @@ border-radius: 40px;
     padding: 10px;
 }
 .fist{
+    position: absolute;
+    top: 0;
+    left: 5%;
     
 }
 .p{
@@ -154,8 +161,10 @@ border-radius: 40px;
 }
 
 .inline{
+    display: flex;
+    justify-content: row;
     height: 900px;
     width: 100%;
 
-    display:flex ;
+   
 }
